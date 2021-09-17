@@ -1,0 +1,43 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+	background-image: url(cssB.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #4da01c;
+	padding: 50px;
+	border-radius:20px 20px;
+	position: absolute;
+	left: 765px;
+}
+h2{
+	color: #FFFFFF;
+	background-color: #4da01c;
+	padding: 50px;
+	border-radius:20px 20px;
+	position: absolute;
+	top: 150px;
+	left: 625px;
+	text-align: center;
+	
+}
+p{
+	color: #0f0808;
+	background-color: #b8440f;
+	padding: 50px;
+	border-radius:20px 20px;
+	position: absolute;
+	bottom: 400px;
+	left: 670px;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: center;
+}
+
+
