@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+	
+		<h1>Evaluación Unidad VIII</h1>
+       
+    <div id="Papiro">
+            <div>
+                <h2 id="Bienvenida">Aventir: La leyenda del Filo Inmortal</h2>
+            </div>
+            <div>
+            <p id="Titulo">Bienvenido a la taverna "Aliento Dragonico" <input id="tags">, aqui encontraras lo justo y necesario para forjar tu aventura viajero,<br> pero primero antes de saber de las nuevas vidas que descubriras durante tu viaje, deberias recordarte a ti mismo, empezamos?</p>
+            <h3>¿A que raza perteneces?</h3>
+            <legend>Selecciona tu Genero</legend>
+    <label for="radio-1">Hombre</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Mujer</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">???</label>
+    <input type="radio" name="radio-1" id="radio-3">
+            <div class="contenedor">
+              <form action="">
+                <div class="selectbox">
+                  <div class="select" id="select">
+                    <div class="contenido-select">
+                      <h1 class="titulo">Elije tu Raza</h1>
+                      <p class="descripcion"></p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+            
+                  <div class="opciones" id="opciones">
+                    <a href="#" class="opcion">
+                      <div class="contenido-opcion">
+                        <img src="css/warr.jpg" alt="">
+                        <div class="textos">
+                          <h1 class="titulo">Humanos</h1>
+                          <p class="descripcion">Poder y Gloria</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="opcion">
+                      <div class="contenido-opcion">
+                        <img src="css/dwarf.jpg" alt="">
+                        <div class="textos">
+                          <h1 class="titulo">Enanos</h1>
+                          <p class="descripcion">Fuertes como las rocas, amigables como la cerveza</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="opcion">
+                      <div class="contenido-opcion">
+                        <img src="css/elf.jpg" alt="">
+                        <div class="textos">
+                          <h1 class="titulo">Elfos</h1>
+                          <p class="descripcion">El orgullo es eterno</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="opcion">
+                      <div class="contenido-opcion">
+                        <img src="css/demon.jpg" alt="">
+                        <div class="textos">
+                          <h1 class="titulo">Darkir</h1>
+                          <p class="descripcion">Elegidos de la noche.</p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="opcion">
+                      <div class="contenido-opcion">
+                        <img src="css/druid.jpg" alt="">
+                        <div class="textos">
+                          <h1 class="titulo">Rakashis</h1>
+                          <p class="descripcion">La naturaleza es la unica gobernante</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            
+                <input type="hidden" name="pais" id="inputSelect" value="">
+              </form>
+            
+            </div>
+
+                <h3>¿Que arte dominas?</h3>
+                <div id="tabs" class="container-sm">
+                  <ul>
+                    <li><a href="#tabs-1">Arte de la Guerra</a></li>
+                    <li><a href="#tabs-2">Arte de la Cazeria</a></li>
+                    <li><a href="#tabs-3">Arte Arcano</a></li>
+                    <li><a href="#tabs-4">Arte de las Sombras</a></li>
+                    <li><a href="#tabs-5">Arte de lo Oculto</a></li>
+                    <li><a href="#tabs-6">Arte de la naturaleza</a></li>
+                  </ul>
+                  <div id="tabs-1">
+                    <p class="FD">Guerreros natos, guiados por el camino de la espada, convierten su miedo y su ira en su mayor fotaleza.
+                      resistentes y poderosos, son capaces de dominar cualquier arma que se les brinde.
+                      <br>
+                      <br>
+                      <label for="checkbox-nested-1"> ¿Eres un/a fuerte Guerrero/a?
+                        <input type="radio" name="radio-1" id="radio-1">
+                      </label>
+                    </p>
+                  </div>
+                  <div id="tabs-2">
+                    <p class="FD">Maestros de la punteria y la precision, los bendecidos por la diosa elfa Armis son incapaces de fallar un tiro,
+                      su excepcional manejo del arco y flecha como otras armas de rango los convierten en rivales y cazadores implacables
+                      <br>
+                      <br>
+                      <label for="checkbox-nested-1"> ¿Eres un/a Habilidoso/a Cazador/a?
+                        <input type="radio" name="radio-1" id="radio-1">
+                      </label>
+                    </p>
+                  </div>
+                  <div id="tabs-3">
+                    <p class="FD">Aquellos magos adiestrados en el arte arcano poseen una sabiduria inmensa, capaces de conocer las mas antiguas magias dejadas por ancestros
+                      para ayudar a aquel que requiera de sus magicos servicios.
+                      <br>
+                      <br>
+                    <label for="checkbox-nested-1"> ¿Eres un/a poderoso/a Mago/a?
+                      <input type="radio" name="radio-1" id="radio-1">
+                    </label>
+                    </p>
+                  </div>
+                  <div id="tabs-4">
+                    <p class="FD">Los sigilosos y letales asesinos de las sombras, estos dan caza a sus victimas y objetivos desde los oscuros rincones del mundo, aguardando su momento para atacar, artistas de los cuchillos, venenos y demas objetos. Ellos se aseguran de que la muerte con ecxelente servicio.
+                      <br>
+                      <br>
+                    <label for="checkbox-nested-1"> ¿Eres un/a letal Asesino/a?
+                      <input type="radio" name="radio-1" id="radio-1">
+                    </label>
+                    </p>
+                  </div>
+                  <div id="tabs-5">
+                    <p class="FD">Los brujos son aquellos magos que se atrevieron a estudiar los tomos y papiros prohibidos, maldiciones,invocaciones demoniacas, e incluso la nigromancia son solo pocas de las artes oscuras que estos individuos son capaces de manejar. Pero incluso ellos saben que todo su poder tiene un costo.
+                      <br>
+                      <br>
+                    <label for="checkbox-nested-1"> ¿Eres un/a peligroso/a Brujo/a?
+                      <input type="radio" name="radio-1" id="radio-1">
+                    </label>
+                    </p>
+                    
+                  </div>
+                  <div id="tabs-6">
+                    <p class="FD">Amantes de la naturaleza y de la misma tierra, el druidismo es la mas viejas de las artes magicas pues como cuentas las historias estos fueron los primeros y mas salvajes hechisos que los seres de este mundo lograron aprender, su coneccion con la naturaleza les permite sentir y escuchar todo lo que el mundo les desea brindar y decir.
+                      <br>
+                      <br>
+                    <label for="checkbox-nested-1"> ¿Eres un/a apasible Druida?
+                      <input type="radio" name="radio-1" id="radio-1">
+                    </label>
+                    </p>
+                    
+                  </div>
+                </div>
+                
+            
+        </div>
+        <h3>¿Cuales son tus motivos? Recuerdas tu historia?</h3>
+        <div id="accordion" class="container-sm">
+          <h3 class="L">Honor y Gloria</h3>
+          <div id="Gloria">
+            <p>Naciste de una reconocida familia, fuiste consagrado entre los tuyos como un elegido y ejemplo a seguir, entre los altos mandos de tu sociedad te encargan la tarea de encontrar la antigua espada Fenrrix "el filo Inmortal" un arma perdida incapaz de ser destruida. Tu aceptaras con orgullo la mision esperando poder traer reconocimineto y gloria a tu apellido.</p>
+          </div>
+          <h3 class="L">Llamado de la Aventura</h3>
+          <div id="Aventura">
+            <p>Tu sueño siempre fue ser un heroe y aventurero, abandonaste el pueblo del que naciste y buscas emocion en tus caminos, peregrinas por el simple echo de ver el mundo. En una taberna escuchas rumores de que una espada legendaria de nombre Fenrrix  y sin dudarlo lo ves como un llamado a la aventura, una histora digna de ser cantada por los bardos del mundo. Preparas tus cosas y te dirijes rumbo a encontrarla, con el fin de obtener una aclamada fama y recompensa. </p>
+          </div>
+          
+          <h3 class="L">Ojo por Ojo</h3>
+          <div id="Venganza">
+            <p> 
+              Tu familia y amigos fueron asesinados ante ti por mercenarios, fuiste capturado y obligado a ser un esclavo de los mismos. Luego de años logras escapar y llegas a una cabaña abandonada en donde buscas escondite. Entre tus arapientas ropas sacas un pergamino que robaste al lider de los mercenarios, en este mismo se puede leer sobre una espada sumante poderosa "Fenrrix el filo Inmortal". Tus ojos brillan pues sabes muy bien que con ella podras conseguir tu deseada venganza. Duermes entre los muros decaidos y a la primera luz incias tu camino. 
+            </p>
+
+          </div>
+         </div> 
+         <br>
+         <br>
+        <div>
+          <button id="registro" type="submit">Registrar Aventurero</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="js/evaluacion8.js"></script>
+</body>
+</html>

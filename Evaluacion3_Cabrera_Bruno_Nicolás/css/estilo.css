@@ -1,0 +1,56 @@
+body{
+    background-color: #fa8fdaef;
+    font-family: Arial;
+	text-align: center;
+    padding: 10px 20px;
+	background-image: url(Fondo.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+	color: #FFFFFF;
+	background-color: #d633ff;
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #fa8fdaef;
+}
+h2{
+	font-family: Century; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #fa8fdaef; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #c502ec;
+}
+
+
+p {
+	font-family: Century; 
+	color: #ffffff; 
+	font-size: 25px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #fa8fdaef; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #c502ec; 
+	
+}
+
+

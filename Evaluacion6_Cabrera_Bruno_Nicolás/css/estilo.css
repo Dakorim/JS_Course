@@ -1,0 +1,32 @@
+body{
+    background-color: #fa8fdaef;
+    font-family: Arial;
+	text-align: center;
+    padding: 10px 20px;
+	background-image: url(economy.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+	color: #FFFFFF;
+	background-color: #3385ff;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+.fondo {
+	font-family: Arial; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #3385ff; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #0033a0;
+}
